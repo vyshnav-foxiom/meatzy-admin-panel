@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Layout from './connection/Layout'
-import Dashboard from './pages/private/Dashboard'
+import Dashboard from './pages/private/Dashboard/Dashboard'
 import { Route, Routes } from 'react-router-dom'
 import PageNotFound from './pages/public/PageNotFound'
 
