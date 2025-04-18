@@ -23,17 +23,17 @@ const Slidebar = () => {
         },
         {
             title: "Vendors",
-            url: "#",
+            url: "/vendor",
             icon: HandCoins,
         },
         {
             title: "Users",
-            url: "#",
+            url: "/user",
             icon: Users,
         },
         {
             title: "Products",
-            url: "#",
+            url: "/product",
             icon: ShoppingCart,
         },
         {

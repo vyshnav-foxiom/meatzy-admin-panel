@@ -12,12 +12,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { SidebarTrigger } from '@/components/ui/sidebar';
 
-const Navbar = ({handleSidebar}) => {
+const Navbar = ({}) => {
   return (
     <nav
     className={`flex items-center justify-between p-2 shadow-md radius-2xl`}
   >
-     <SidebarTrigger handleSidebar={handleSidebar} />
+     <SidebarTrigger  />
     {/* Logo  */}
     <div className=" text-xl  font-semibold">Meatzy</div>
 
